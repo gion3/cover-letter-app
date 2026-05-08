@@ -10,7 +10,7 @@ export default function LandingPage() {
           </h1>
           <p className="text-xl text-gray-600 mb-4 max-w-2xl mx-auto">
             Generate professional, tailored cover letters in seconds using AI.
-            Upload your CV, paste a job description, and let GPT-4o-mini craft the perfect letter.
+            Upload your CV, paste a job description, and let AI craft the perfect letter.
           </p>
           <p className="text-sm text-gray-500 mb-10 max-w-xl mx-auto">
             Powered by <span className="font-semibold text-indigo-500">Google Gemini API</span> and{' '}
