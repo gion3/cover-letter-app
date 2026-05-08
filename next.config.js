@@ -2,6 +2,7 @@
 const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ['mongoose', 'pdf-parse'],
+    output: "standalone",
   },
 }
 
