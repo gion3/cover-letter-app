@@ -13,7 +13,7 @@ export default function LandingPage() {
             Upload your CV, paste a job description, and let GPT-4o-mini craft the perfect letter.
           </p>
           <p className="text-sm text-gray-500 mb-10 max-w-xl mx-auto">
-            Powered by <span className="font-semibold text-indigo-500">OpenAI API</span> and{' '}
+            Powered by <span className="font-semibold text-indigo-500">Google Gemini API</span> and{' '}
             <span className="font-semibold text-indigo-500">MongoDB Atlas</span> — cloud-native from the ground up.
           </p>
 

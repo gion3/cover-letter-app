@@ -1,6 +1,6 @@
 # CoverLetterAI
 
-A full-stack AI-powered cover letter generator built with Next.js 14, MongoDB Atlas, and the OpenAI API.
+A full-stack AI-powered cover letter generator built with Next.js 14, MongoDB Atlas, and the Google Gemini API.
 
 ## Description
 
@@ -37,7 +37,7 @@ Fill in the values of the .env:
 
 ```env
 MONGODB_URI=mongodb+srv://<user>:<password>@cluster0.xxxxx.mongodb.net/cover-letter-app
-OPENAI_API_KEY=sk-...
+GOOGLE_AI_API_KEY=AIza...
 NEXTAUTH_SECRET=some-random-secret-string
 NEXTAUTH_URL=http://localhost:3000
 ```
@@ -76,7 +76,7 @@ POST /api/generate
      │
      ├── Build prompt (CV text + job description + parameters)
      │
-     ├── POST to OpenAI REST API (gpt-4o-mini)
+     ├── POST to Google AI Studio API
      │        └── Returns generated cover letter text
      │
      ├── Save result to MongoDB Atlas (CoverLetter collection)
