@@ -1,3 +1,11 @@
+## CoverLetterAI - Proiect Cloud Computing, Voicu Ionut, 1147
+
+> prezentare video: https://youtu.be/559R9PoPWK4
+
+> deploy vercel: https://cover-letter-app-red.vercel.app/
+
+> deploy aws ec2: http://51.21.145.55/
+
 ## 1. Introducere
 
 CoverLetterAI este o aplicație web full-stack care permite utilizatorilor să genereze scrisori de intenție personalizate folosind inteligență artificială. Utilizatorul își creează un cont, încarcă CV-ul în format PDF, introduce descrierea unui loc de muncă și configurează parametri precum tonul, lungimea, limba și accentul dorit. Aplicația procesează aceste date și apelează API-ul Google Gemini pentru a genera o scrisoare de intenție profesională, adaptată profilului candidatului și cerințelor jobului.
